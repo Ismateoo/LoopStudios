@@ -1,0 +1,75 @@
+.header{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    background-image: url(/images/desktop/image-hero.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size:  1440px 550px;
+    height: 650px;
+    width: 100%;
+    
+}
+.imagen{
+    display: block;
+    z-index:1;
+}
+.nav{
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 50px 160px;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.nav__lista{
+    display: flex;
+    gap: 30px;
+}
+
+.lista__item{
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-family: "Alata", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+}
+
+.header__cuadro{
+width: 590px;
+margin: 50px 160px;
+border: 1px solid white;
+padding: 30px;
+}
+
+.cuadro__texto{
+    color: white;
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    font-stretch: extra-condensed;
+    margin: 0px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+/* .josefin-sans{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .alata-regular {
+      font-family: "Alata", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    } */
+    
